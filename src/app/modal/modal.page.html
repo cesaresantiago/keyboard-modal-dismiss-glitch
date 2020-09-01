@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Form button on toolbar</ion-title>
+    <ion-buttons slot="start">
+      <ion-button color="light" (click)="closeModal()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-margin">
+    Click on field to make ios keyboard appear. Dismiss the modal with the back button while keyboard is shown.
+    You'll see how it animates down around to where the keyboard was, sticks around just a little bit and then disappears.
+  </div>
+  <ion-card>
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="floating"> Enter something </ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

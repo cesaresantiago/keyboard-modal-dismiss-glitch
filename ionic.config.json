@@ -1,5 +1,7 @@
 {
   "name": "keyboard-modal-dismiss-glitch",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
